@@ -44,7 +44,7 @@ class FilerTeaser(CMSPlugin):
         to=CMSPlugin,
         related_name='%(app_label)s_%(class)s',
         parent_link=True,
-        on_delete=models.SET_NULL
+        on_delete=models.CASCADE
     )
 
     objects = FilerPluginManager(select_related=('image', 'page_link'))
