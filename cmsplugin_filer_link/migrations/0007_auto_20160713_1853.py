@@ -7,7 +7,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('cmsplugin_filer_file', '0004_auto_20160705_1334'),
+        ('cmsplugin_filer_file', '0006_auto_20160705_1334'),
     ]
 
     operations = [
